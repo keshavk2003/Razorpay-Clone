@@ -1,0 +1,33 @@
+#kk{
+    transition:all 1s;
+}
+#kk:hover{
+    box-shadow:0px 0px 50px rgba(128, 128, 128, 0.406);
+}
+#kk img:hover{
+    background-color:#283545;
+}
+
+.corefeaturesection{
+    height:100%;
+    width:100%;
+    padding-top :12rem;
+    padding-bottom:12rem;
+
+}
+
+.moveImage{
+    animation:10s infinite linear moveCompany;
+}
+@keyframes moveCompany{
+    0%{
+        top:0%;
+    }
+    100%{
+        top:-70%;
+    }
+}
+
+.ctaSection{
+    background-size: 100% 100%;
+}
